@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <path d="M30 64 L50 44 L50 84 Z" fill="none" stroke-width="6" />
+    <path d="M98 64 L78 44 L78 84 Z" fill="none" stroke-width="6" />
+    <text x="50%" y="75%" text-anchor="middle" fill="#000" font-size="20" font-family="Arial, sans-serif">JB</text>
+    <style>
+        path {
+            stroke: #000;
+        }
+        text {
+            fill: #000;
+        }
+        @media (prefers-color-scheme: dark) {
+            path {
+                stroke: #FFF;
+            }
+            text {
+                fill: #FFF;
+            }
+        }
+    </style>
+</svg>
