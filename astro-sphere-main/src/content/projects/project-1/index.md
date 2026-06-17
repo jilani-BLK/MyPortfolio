@@ -13,6 +13,12 @@ repoUrl: https://github.com/jilani-BLK/TimeSnap.git
 
 **TimeSnap** est une application web interactive développée avec JavaScript, HTML et CSS. Ce projet permet de chronométrer des événements, de définir des notifications et de sauvegarder les temps enregistrés.
 
+### Démo jouable
+
+Essaie l'application directement ici, sans quitter la page :
+
+<iframe src="https://jilani-blk.github.io/TimeSnap/" title="Démo jouable de TimeSnap" loading="lazy" style="width:100%; height:560px; border:1px solid rgba(128,128,128,0.3); border-radius:14px;"></iframe>
+
 ### Fonctionnalités principales :
 - **Chronométrage** : Démarrer, mettre en pause et réinitialiser le chronomètre.
 - **Notifications** : Définir des alarmes avec des messages personnalisés et des sons de notification.
