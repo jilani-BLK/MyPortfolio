@@ -10,9 +10,17 @@ tags:
 - IA
 ---
 
-**PMark-1** est un prototype de **bras robotique à 6 axes** miniature, inspiré des systèmes industriels. Le projet couvre l'ensemble de la chaîne, de la conception mécanique au pilotage logiciel.
+**PMark-1** est un prototype de **bras robotique à 6 axes** miniature, inspiré des systèmes industriels. Le projet couvre l'ensemble de la chaîne, de la conception mécanique au pilotage logiciel, et me sert avant tout à **m'initier à la robotique**.
 
 > 🚧 **Projet en cours de développement.**
+
+### Matériel
+Pour démarrer, je me suis équipé d'un kit **Waveshare SO-ARM101** — un bras robotique 6 axes **open-source** :
+- Support natif de **Hugging Face LeRobot**, idéal pour explorer l'apprentissage par IA.
+- **Servomoteurs bus à fort couple** et pièces imprimées en 3D (résine photosensible).
+- Fourni avec son **kit CAM (SE)**.
+
+Ce kit me permet de me familiariser concrètement avec la cinématique, la motorisation et le contrôle d'un bras articulé, avant d'aller plus loin dans la personnalisation.
 
 ### Conception
 - **Cinématique** : étude des degrés de liberté et du mouvement des 6 axes.
