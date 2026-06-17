@@ -18,10 +18,15 @@ const projects = (await getCollection("projects"))
   .slice(0,3)
 
 const stack = [
-  { 
-    text: "Javascript", 
-    icon: "javascript", 
-    href: "https://www.javascript.com" 
+  {
+    text: "Astro",
+    icon: "astro",
+    href: "https://astro.build"
+  },
+  {
+    text: "Javascript",
+    icon: "javascript",
+    href: "https://www.javascript.com"
   },
   { 
     text: "Typescript", 
@@ -36,7 +41,7 @@ const stack = [
 ]
 ---
 
-<PageLayout title="Home" description={SITE.DESCRIPTION}>
+<PageLayout title="Accueil" description={SITE.DESCRIPTION}>
 
   <!-- Light Mode: Particles -->
   <div class='absolute inset-0 block dark:hidden'>
@@ -80,6 +85,9 @@ const stack = [
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
             Jilani Belarbi Kermorvan
           </p>
+          <p class='animated text-base md:text-lg lg:text-xl font-semibold text-black dark:text-white mt-1'>
+            Développeur web full-stack
+          </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
             Passionné par la mécanique, la robotique, l'intelligence artificielle et les nouvelles technologies.
           </p>
@@ -101,6 +109,9 @@ const stack = [
 
       <!-- About Section -->
       <section class="animate">
+        <p class="font-semibold text-black dark:text-white mb-4">
+          À propos
+        </p>
         <article class="space-y-4">
           <p>
         Développeur web full-stack passionné par la <b>programmation</b>, l'<b>intelligence artificielle</b> et la <b>robotique</b>. Après une formation de développeur web full-stack à l'<b>Epitech Web@cademie</b>, j'ai aussi vécu l'intensité de la <b>Piscine de 42</b> — un mois d'immersion en C, en autonomie totale, qui a renforcé ma rigueur et ma débrouille technique.
@@ -156,7 +167,7 @@ const stack = [
             ))}
           </div>
           <div>
-            Réactivité et état d'avancement, avec
+            Interactivité gérée avec
             <a href="https://www.solidjs.com/" target="_blank" class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
                 SolidJS
