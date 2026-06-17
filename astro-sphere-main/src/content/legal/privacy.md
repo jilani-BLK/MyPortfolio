@@ -1,35 +1,26 @@
 ---
 title: "Politique de Confidentialité"
-date: "07/03/2024"
+date: "06/17/2026"
 ---
 
-Bienvenue sur mon portfolio ! Cette Politique de Confidentialité a pour but de vous informer sur la manière dont je collecte, utilise et protège vos informations lorsque vous visitez mon site [URL de votre site]. Je tiens à garantir que vos données sont traitées avec respect et en toute transparence.
+Cette page explique comment ce portfolio traite vos données. La réponse courte : **ce site ne collecte aucune donnée personnelle.**
 
-#### Collecte d’Informations
-Je peux être amené à collecter certaines informations lorsque vous interagissez avec mon site, comme :
-- Votre adresse email, si vous choisissez de me contacter via le formulaire.
-- Des données non personnelles, telles que le type de navigateur ou les statistiques de visite (via des outils comme Google Analytics).
+#### Aucune collecte de données
+Ce portfolio est une simple vitrine **statique**. Il ne contient **ni formulaire, ni compte utilisateur, ni outil de suivi** (pas de Google Analytics ou équivalent). Je ne recueille, ne stocke et ne revends aucune donnée personnelle vous concernant.
 
-#### Utilisation des Informations
-Les informations recueillies sont utilisées uniquement pour :
-- Répondre à vos messages ou demandes.
-- Améliorer l’expérience utilisateur sur mon site (analyse des visites, optimisation du contenu).
+#### Cookies
+Ce site **n'utilise aucun cookie de suivi**. La seule information conservée est votre **préférence de thème** (clair ou sombre), enregistrée localement dans votre navigateur : elle ne quitte jamais votre appareil et ne sert à aucun pistage.
 
-Je ne partage ni ne vends vos données à des tiers.
+#### Si vous me contactez
+Si vous m'écrivez par email, j'utilise votre message et votre adresse **uniquement** pour vous répondre. Je ne les partage avec personne.
 
-#### Cookies de Navigation
-Ce site utilise des cookies pour améliorer votre navigation. Ces cookies servent à des fins analytiques, mais vous êtes libre de les désactiver dans les paramètres de votre navigateur. Sachez que certaines fonctionnalités pourraient être limitées sans les cookies.
-
-#### Protection de vos Informations
-Je m'engage à protéger vos données personnelles. Bien que ce site soit principalement une vitrine de mon travail, j'applique les meilleures pratiques pour sécuriser toute donnée partagée.
-
-#### Partage des Informations
-Aucune information personnelle ne sera partagée sans votre consentement. Les données collectées servent uniquement aux finalités mentionnées ci-dessus.
+#### Liens externes
+Ce site contient des liens vers d'autres services (réseaux sociaux, projets). Je ne suis pas responsable de leurs pratiques en matière de données ; je vous invite à consulter leurs propres politiques.
 
 #### Modifications de cette Politique
-Je peux mettre à jour cette Politique de Confidentialité à tout moment pour refléter des changements dans les lois ou les fonctionnalités de mon site. Les mises à jour seront publiées sur cette page.
+Cette page pourra être mise à jour si le fonctionnement du site évolue (par exemple l'ajout d'un formulaire de contact ou d'outils de mesure d'audience).
 
 ---
 
-### Merci pour votre confiance
-Je suis ravi de partager mon travail avec vous dans un cadre respectueux et transparent. Si vous avez des questions concernant cette Politique ou l’utilisation de vos données, n’hésitez pas à me contacter via la section [Contact](#).
+### Une question ?
+Pour toute question concernant cette Politique, écrivez-moi à [jilani.belarbi@yahoo.com](mailto:jilani.belarbi@yahoo.com).
