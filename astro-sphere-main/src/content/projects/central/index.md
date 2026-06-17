@@ -9,13 +9,11 @@ tags:
 - TypeScript
 - IA
 - Supabase
-demoUrl: https://mycentralai.com
-repoUrl: https://github.com/jilani-BLK/Central
 ---
 
 **Central** est un espace personnel unifié où **Cobalt**, un assistant IA basé sur **Claude (Anthropic)**, est l'interface principale. L'utilisateur garde le contrôle via des outils, et l'écosystème s'étend à tout ce qui le concerne — santé, finance, projets, lectures, relations — pas seulement la productivité.
 
-> 🛠️ **Phase MVP — en développement actif.**
+> 🛠️ **Phase MVP — en développement actif.** Code source privé pour l'instant.
 
 ### Aperçu en images
 
@@ -45,7 +43,7 @@ repoUrl: https://github.com/jilani-BLK/Central
 - **Mémoire à coût zéro** : embeddings calculés côté client (Transformers.js en Web Worker) et stockés dans **Supabase pgvector** (index HNSW) — Cobalt se souvient durablement de ce qui concerne l'utilisateur.
 - **Abonnements** : facturation **Stripe** complète (Checkout, Portal, Webhooks) sur 4 tiers, avec essai gratuit.
 - **Intégrations** : Google Maps + Places API, emails transactionnels (Resend), interface bilingue **fr / en**.
-- Déployé sur un domaine de production : **mycentralai.com**.
+- Nom de domaine réservé pour la mise en production : **mycentralai.com**.
 
 ### Ce que ce projet démontre
 La conception **full-stack de bout en bout** d'un produit SaaS réel : architecture front/back, base de données sécurisée, intégration d'une IA avec mémoire, paiements et mise en production.

@@ -8,12 +8,11 @@ tags:
 - Python
 - LLM local
 - C
-repoUrl: https://github.com/jilani-BLK/Hedwige
 ---
 
 **Darwin** est un majordome numérique personnel, pensé comme une **présence permanente** sur la machine de l'utilisateur. Ni chatbot, ni application web : un **programme qui vit en local**, qui connaît son utilisateur, se souvient de tout et agit pour lui. (Nom de code du projet : **Hedwige**.)
 
-> 🚧 **Projet en cours de développement.**
+> 🚧 **Projet en cours de développement** — code source privé pour l'instant.
 
 ### Aperçu en images
 
