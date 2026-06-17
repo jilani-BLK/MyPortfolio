@@ -8,7 +8,7 @@ tags:
 - Parcours
 ---
 
-Bienvenue ! Je suis **Jilani**, développeur web full-stack, passionné par la **programmation**, l'**intelligence artificielle** et la **robotique**. Ce blog est l'endroit où je partage ce que je construis et ce que j'apprends en chemin.
+Bienvenue ! Ce blog est l'endroit où je partage ce que je construis et ce que j'apprends en chemin.
 
 ## Mon parcours en quelques mots
 
