@@ -3,7 +3,7 @@ import type { Site, Page, Links, Socials } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "Jilani BLK",
-  DESCRIPTION: "Découvrez mes projets, mon blog, et mes compétences en développement web.",
+  DESCRIPTION: "Découvrez mes projets et mes compétences en développement web.",
   AUTHOR: "Jilani Belarbi Kermorvan",
 };
 
@@ -11,12 +11,6 @@ export const SITE: Site = {
 export const WORK: Page = {
   TITLE: "Expérience",
   DESCRIPTION: "Découvrez mes expériences professionnelles et les entreprises où j'ai travaillé.",
-};
-
-// Page blog
-export const BLOG: Page = {
-  TITLE: "Blog",
-  DESCRIPTION: "Envoyez-moi un message ou connectez-vous avec moi sur les réseaux sociaux.",
 };
 
 // Page Projects
@@ -28,7 +22,7 @@ export const PROJECTS: Page = {
 // Page Search
 export const SEARCH: Page = {
   TITLE: "Recherche",
-  DESCRIPTION: "Trouvez des articles de blog et des projets à l'aide de mots-clés.",
+  DESCRIPTION: "Trouvez mes projets à l'aide de mots-clés.",
 };
 
 // Page Contact
@@ -39,25 +33,17 @@ export const CONTACT: Page = {
 
 
 export const LINKS: Links = [
-  { 
-    TEXT: "Home", 
-    HREF: "/", 
+  {
+    TEXT: "Accueil",
+    HREF: "/",
   },
-  { 
-    TEXT: "Work", 
-    HREF: "/work", 
+  {
+    TEXT: "Expérience",
+    HREF: "/work",
   },
-  { 
-    TEXT: "Projects", 
-    HREF: "/projects", 
-  },
-  { 
-    TEXT: "Blog", 
-    HREF: "/blog", 
-  },
-  { 
-    TEXT: "Contact", 
-    HREF: "/contact", 
+  {
+    TEXT: "Projets",
+    HREF: "/projects",
   },
 ];
 
@@ -65,13 +51,13 @@ export const SOCIALS: Socials = [
   { 
     NAME: "GitHub",
     ICON: "github",
-    TEXT: "JilB444",
-    HREF: "https://github.com/JilB444"
+    TEXT: "jilani-BLK",
+    HREF: "https://github.com/jilani-BLK"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "Jilani Belarbi",
+    TEXT: "Jilani Belarbi Kermorvan",
     HREF: "https://www.linkedin.com/in/jilani-kermorvan/"
   },
   { 

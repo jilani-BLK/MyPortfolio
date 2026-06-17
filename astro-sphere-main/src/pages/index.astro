@@ -7,22 +7,12 @@ import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 
-const posts = (await getCollection("blog"))
-  .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,3)
-
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
 const stack = [
-  { 
-    text: "Astro", 
-    icon: "astro", 
-    href: "https://astro.build" 
-  },
   { 
     text: "Javascript", 
     icon: "javascript", 
@@ -83,17 +73,17 @@ const stack = [
             Bonjour, je suis...
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            Jilani Belarbi Kermovan
+            Jilani Belarbi Kermorvan
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            Passionné par l'informatique et l'IA, en quête d'innovations concrètes.
+            Passionné par la mécanique, la robotique, l'intelligence artificielle et les nouvelles technologies.
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
-              Lire mon blog
+            <a href='/projects' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+              Mes projets
             </a>
             <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
-              Voir mon travail
+              Mes expériences
             </a>
           </div>
         </div>
@@ -105,67 +95,28 @@ const stack = [
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
 
       <!-- About Section -->
-<section class="animate">
-  <article>
-    <p>
-      Je suis un <b><i>développeur web</i></b> passionné par l'informatique, 
-      l'intelligence artificielle et le design créatif. 
-      Toujours curieux et motivé, je suis en quête de projets 
-      innovants et stimulants.
-    </p>
-    <p>
-      Mes compétences incluent le <b><i>développement Front-End</i></b> 
-      (HTML, CSS, JavaScript, React), le <b><i>Back-End</i></b> 
-      (PHP, Node.js) et la gestion de bases de données 
-      (MySQL, MongoDB).
-    </p>
-    <p>
-      Pendant mon parcours, j'ai eu l'opportunité de travailler sur 
-      des projets variés, allant de sites web marketing à des 
-      applications complexes en entreprise, en mettant l'accent sur 
-      des interfaces utilisateur élégantes et performantes.
-    </p>
-    <p>
-      Actuellement, je suis à la recherche d'une alternance en développement web 
-      (3 semaines en entreprise / 1 semaine en formation) pour allier théorie 
-      et pratique, tout en contribuant activement à des projets ambitieux.
-    </p>
-    <p>
-      Mon objectif est de transformer ma passion pour la technologie en 
-      solutions concrètes, tout en continuant à apprendre et à relever 
-      de nouveaux défis.
-    </p>
-  </article>
-</section>
-
-      <!-- Blog Preview Section -->
       <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent posts
-            </p>
-            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All posts
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {posts.map((post) => (
-              <li>
-                <ArrowCard entry={post} />
-              </li>
-            ))}
-          </ul>
-        </div>
+        <article class="space-y-4">
+          <p>
+        Développeur web full-stack passionné par la <b>programmation</b>, l'<b>intelligence artificielle</b> et la <b>robotique</b>. Après une formation de développeur web full-stack à l'<b>Epitech Web@cademie</b>, je poursuis mon parcours à l'école <b>42</b>, où j'affine mon autonomie et ma rigueur technique sur des projets concrets.
+          </p>
+          <p>
+        Je travaille en <b>Front-End</b> (HTML, CSS, JavaScript, React, Bootstrap, UI/UX) comme en <b>Back-End</b> (C, Python, PHP, Node.js, Laravel, Symfony, JavaEE), avec les bases de données <b>MySQL</b> et <b>MongoDB</b>, et je touche aussi au CMS <b>WordPress</b> et à l'administration système.
+          </p>
+          <p>
+        Mes projets les plus ambitieux mêlent <b>software et hardware</b>. Je développe <b>H.O.P.P.E.R.</b>, un assistant à base d'<b>IA locale</b> multi-plateforme (Windows, macOS, Linux), pensé pour une architecture scalable et sécurisée ; et <b>PMark-1</b>, un <b>bras robotique 6 axes</b> inspiré des systèmes industriels — étude de la cinématique, motorisation, capteurs et pilotage en Python et C, avec à terme une IA embarquée.
+          </p>
+          <p>
+        En parallèle, je multiplie les projets pour explorer de nouvelles technologies : <b>TimeSnap</b> (chronométrage en JavaScript), <b>PyMath</b> (calculatrice graphique en Python/PyQt5) ou encore <b>MazeCraze</b> (jeu de labyrinthe en Pygame). Ambitieux, curieux et rigoureux, je cherche constamment de nouveaux défis pour transformer les idées en réalités concrètes.
+          </p>
+        </article>
       </section>
 
       <!-- Tech Stack Section -->
       <section class="animate">
         <div class="space-y-4">
           <p class="font-semibold text-black dark:text-white">
-            Website build with
+            Création du site web avec :
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
             {stack.map(item => (
@@ -177,7 +128,7 @@ const stack = [
             ))}
           </div>
           <div>
-            Performing reactivity and statefulness, special guest
+            Réactivité et état d'avancement, avec
             <a href="https://www.solidjs.com/" target="_blank" class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
                 SolidJS
@@ -192,10 +143,11 @@ const stack = [
         <div class="space-y-4">
           <div class="flex justify-between">
             <p class="font-semibold text-black dark:text-white">
-              projet recent            </p>
+              Projets récents
+            </p>
             <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
               <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                tout les projet
+                Tous les projets
               </span>
             </a>
           </div>
@@ -216,7 +168,8 @@ const stack = [
             Connectons-nous !
           </p>
           <p>
-            Contactez-moi par courriel ou sur les médias sociaux.          </p>
+            Contactez-moi par courriel ou sur les réseaux sociaux.
+          </p>
           <div class="grid grid-cols-4 gap-y-2 mt-4 auto-cols-min">
             {SOCIALS.map(social => (
               <div class="col-span-1 flex items-center gap-1">
