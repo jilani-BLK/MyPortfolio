@@ -17,6 +17,24 @@ repoUrl: https://github.com/jilani-BLK/Central
 
 > 🛠️ **Phase MVP — en développement actif.**
 
+### Aperçu en images
+
+![Aperçu — chat Cobalt](/projects/central/01-apercu-chat.svg)
+
+*Vue d'ensemble de l'interface, avec Cobalt comme point d'entrée principal.*
+
+![Conversation avec Cobalt](/projects/central/02-conversation.svg)
+
+*Une conversation : Cobalt répond et s'appuie sur sa mémoire de l'utilisateur.*
+
+![Un outil / miniview](/projects/central/03-outil.svg)
+
+*Les outils : chaque domaine de vie (santé, finance, projets…) a sa miniview.*
+
+![Les 4 abonnements](/projects/central/04-abonnements.svg)
+
+*Les 4 tiers d'abonnement, gérés via Stripe (Checkout, Portal, Webhooks).*
+
 ### Stack technique
 - **Front-End** : React 18, Vite, TypeScript, Tailwind CSS v4.
 - **Back-End** : Express, Node.js, TypeScript.

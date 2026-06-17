@@ -14,6 +14,20 @@ tags:
 
 > 🚧 **Projet en cours de développement.**
 
+### Aperçu en images
+
+![Kit SO-ARM101 monté](/projects/pmark-1/01-kit.svg)
+
+*Le bras robotique SO-ARM101 monté.*
+
+![Le bras en mouvement](/projects/pmark-1/02-mouvement.svg)
+
+*Un cycle de prise et dépose (pick & place).*
+
+![Gros plan servos / pièces 3D](/projects/pmark-1/03-servos.svg)
+
+*Détails : servomoteurs bus à fort couple et pièces imprimées en 3D (résine).*
+
 ### Matériel
 Pour démarrer, je me suis équipé d'un kit **Waveshare SO-ARM101** — un bras robotique 6 axes **open-source** :
 - Support natif de **Hugging Face LeRobot**, idéal pour explorer l'apprentissage par IA.
