@@ -15,7 +15,7 @@ repoUrl: https://github.com/jilani-BLK/PyMath.git
 
 L'application originale est en PyQt5 (bureau) et ne tourne pas dans un navigateur. Voici une **réimplémentation web** de la calculatrice, jouable directement ici — mêmes fonctions (calculs de base, %, racine carrée, mémoire, historique) :
 
-<iframe src="/demos/pymath/" title="Démo jouable de PyMath" loading="lazy" style="width:100%; height:560px; border:1px solid rgba(128,128,128,0.3); border-radius:14px;"></iframe>
+<iframe src="/demos/pymath/index.html" title="Démo jouable de PyMath" loading="lazy" style="width:100%; height:600px; border:0;"></iframe>
 
 ### L'application originale (PyQt5)
 
