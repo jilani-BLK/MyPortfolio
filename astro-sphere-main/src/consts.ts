@@ -3,7 +3,7 @@ import type { Site, Page, Links, Socials } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "Jilani BLK",
-  DESCRIPTION: "Découvrez mes projets et mes compétences en développement web.",
+  DESCRIPTION: "Découvrez mes projets, mon blog et mes compétences en développement web.",
   AUTHOR: "Jilani Belarbi Kermorvan",
 };
 
@@ -11,6 +11,12 @@ export const SITE: Site = {
 export const WORK: Page = {
   TITLE: "Expérience",
   DESCRIPTION: "Découvrez mes expériences professionnelles et les entreprises où j'ai travaillé.",
+};
+
+// Page Blog
+export const BLOG: Page = {
+  TITLE: "Blog",
+  DESCRIPTION: "Mes articles : projets, apprentissages et réflexions autour du développement et de l'IA.",
 };
 
 // Page Projects
@@ -22,7 +28,7 @@ export const PROJECTS: Page = {
 // Page Search
 export const SEARCH: Page = {
   TITLE: "Recherche",
-  DESCRIPTION: "Trouvez mes projets à l'aide de mots-clés.",
+  DESCRIPTION: "Trouvez mes articles et projets à l'aide de mots-clés.",
 };
 
 // Page Contact
@@ -44,6 +50,10 @@ export const LINKS: Links = [
   {
     TEXT: "Projets",
     HREF: "/projects",
+  },
+  {
+    TEXT: "Blog",
+    HREF: "/blog",
   },
 ];
 

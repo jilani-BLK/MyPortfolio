@@ -1,0 +1,33 @@
+---
+title: "Bienvenue sur mon blog"
+summary: "Qui je suis, ce sur quoi je travaille, et ce que tu trouveras ici."
+date: "Jun 17 2026"
+draft: false
+tags:
+- Présentation
+- Parcours
+---
+
+Bienvenue ! Je suis **Jilani**, développeur web full-stack, passionné par la **programmation**, l'**intelligence artificielle** et la **robotique**. Ce blog est l'endroit où je partage ce que je construis et ce que j'apprends en chemin.
+
+## Mon parcours en quelques mots
+
+Après une formation de développeur web full-stack à l'**Epitech Web@cademie**, je poursuis aujourd'hui à l'école **42**, où l'apprentissage par projets et par les pairs pousse l'autonomie et la rigueur technique. C'est exactement le terrain qui me correspond : apprendre en construisant.
+
+## Ce sur quoi je travaille
+
+En ce moment, mes projets tournent surtout autour de l'IA et du « software + hardware » :
+
+- **Darwin** — un assistant numérique **100 % local et souverain**, basé sur un LLM open-source exécuté sur la machine, avec voix et mémoire continue.
+- **Central** — une **plateforme SaaS** d'assistant personnel (mémoire vectorielle, outils, abonnements).
+- **PMark-1** — mes premiers pas en **robotique**, autour d'un bras articulé 6 axes.
+
+## Ce que tu trouveras ici
+
+Je compte écrire sur :
+
+- l'**avancement de mes projets** et les décisions techniques derrière ;
+- ce que j'**apprends** (IA locale, web, robotique, bonnes pratiques) ;
+- des **retours d'expérience** honnêtes, y compris sur ce qui ne marche pas du premier coup.
+
+Merci de passer — et à bientôt pour le prochain article. 🚀
