@@ -2,7 +2,7 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Jilani BLK",
+  TITLE: "J. B. Kermorvan",
   DESCRIPTION: "Découvrez mes projets, mon blog et mes compétences en développement web.",
   AUTHOR: "Jilani Belarbi Kermorvan",
 };
