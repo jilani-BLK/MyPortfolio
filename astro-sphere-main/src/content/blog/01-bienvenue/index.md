@@ -12,7 +12,7 @@ Bienvenue ! Je suis **Jilani**, développeur web full-stack, passionné par la *
 
 ## Mon parcours en quelques mots
 
-Après une formation de développeur web full-stack à l'**Epitech Web@cademie**, je poursuis aujourd'hui à l'école **42**, où l'apprentissage par projets et par les pairs pousse l'autonomie et la rigueur technique. C'est exactement le terrain qui me correspond : apprendre en construisant.
+Après une formation de développeur web full-stack à l'**Epitech Web@cademie**, j'ai aussi plongé dans la **Piscine de 42** — un mois d'immersion intense en C et en autonomie totale. Apprendre en construisant, sous pression et entre pairs, c'est exactement ce qui me correspond.
 
 ## Ce sur quoi je travaille
 
