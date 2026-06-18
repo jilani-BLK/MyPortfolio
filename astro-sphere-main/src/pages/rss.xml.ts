@@ -15,6 +15,7 @@ export async function GET(context: Context) {
   items.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
   return rss({
+    stylesheet: "/rss-styles.xsl",
     title: SITE.TITLE,
     description: SITE.DESCRIPTION,
     site: context.site,
