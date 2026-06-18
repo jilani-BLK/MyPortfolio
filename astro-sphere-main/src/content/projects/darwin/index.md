@@ -1,6 +1,6 @@
 ---
 title: "Darwin"
-summary: "Majordome numérique personnel 100% local et souverain : LLM open-source en local, voix, mémoire continue. En cours de développement."
+summary: "Mon IA personnelle : un assistant numérique 100% local et souverain (LLM open-source, voix, mémoire continue) que je conçois de A à Z. En cours de développement."
 date: "May 23 2026"
 draft: false
 tags:
@@ -10,7 +10,7 @@ tags:
 - C
 ---
 
-**Darwin** est un majordome numérique personnel, pensé comme une **présence permanente** sur la machine de l'utilisateur. Ni chatbot, ni application web : un **programme qui vit en local**, qui connaît son utilisateur, se souvient de tout et agit pour lui. (Nom de code du projet : **Hedwige**.)
+**Darwin, c'est mon IA personnelle** — un assistant numérique que je conçois et construis moi-même, pensé comme une **présence permanente** sur ma machine. Ni chatbot, ni application web : un **programme qui vit en local**, qui me connaît, se souvient de tout et agit pour moi. (Nom de code du projet : **Hedwige**.)
 
 > 🚧 **Projet en cours de développement** — code source privé pour l'instant.
 
@@ -29,7 +29,7 @@ tags:
 *Darwin compose ses primitives universelles pour agir sur la machine.*
 
 ### Principe : souveraineté totale
-Tout fonctionne **en local**, sans aucun service cloud ni API tierce. Si Internet disparaît, Darwin continue de fonctionner. Les données appartiennent entièrement à l'utilisateur — chiffrement au repos et en transit.
+Tout fonctionne **en local**, sans aucun service cloud ni API tierce. Si Internet disparaît, Darwin continue de fonctionner. Mes données restent **entièrement chez moi** — chiffrement au repos et en transit.
 
 ### Cerveau : LLM open-source local
 - Modèles **Qwen2.5 (14B / 7B)** exécutés localement, sélectionnés automatiquement **selon la RAM disponible**.

@@ -1,0 +1,28 @@
+---
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+---
+
+<PageLayout title="CV" description="Le CV de Jilani Belarbi Kermorvan — développeur full-stack.">
+  <TopLayout>
+    <div class="animate flex items-center justify-between gap-4">
+      <div class="page-heading">CV</div>
+      <a href="/cv.pdf" download class="py-2 px-4 rounded text-sm bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend whitespace-nowrap">
+        Télécharger (PDF)
+      </a>
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate">
+      <img
+        src="/cv.jpg"
+        alt="CV de Jilani Belarbi Kermorvan"
+        width="1240"
+        height="1754"
+        loading="lazy"
+        class="w-full h-auto rounded-lg border border-black/10 dark:border-white/15"
+      />
+    </div>
+  </BottomLayout>
+</PageLayout>

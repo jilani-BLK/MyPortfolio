@@ -1,0 +1,31 @@
+---
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+---
+
+<PageLayout title="Page introuvable" description="Cette page n'existe pas, ou plus.">
+  <TopLayout>
+    <div class="animate page-heading">
+      404
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate space-y-4">
+      <p class="text-lg font-semibold text-black dark:text-white">
+        Oups, cette page est introuvable.
+      </p>
+      <p class="opacity-75">
+        Le lien est peut-être cassé, ou la page a été déplacée.
+      </p>
+      <div class="flex flex-wrap gap-3 pt-2">
+        <a href="/" class="py-2 px-4 rounded text-sm bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend">
+          Retour à l'accueil
+        </a>
+        <a href="/projects" class="py-2 px-4 rounded text-sm border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+          Voir mes projets
+        </a>
+      </div>
+    </div>
+  </BottomLayout>
+</PageLayout>
