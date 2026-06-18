@@ -31,13 +31,6 @@ export const SEARCH: Page = {
   DESCRIPTION: "Trouvez mes articles et projets à l'aide de mots-clés.",
 };
 
-// Page Contact
-export const CONTACT: Page = {
-  TITLE: "Contact",
-  DESCRIPTION: "Envoyez-moi un message ou connectez-vous avec moi via le formulaire de contact.",
-};
-
-
 export const LINKS: Links = [
   {
     TEXT: "Accueil",
