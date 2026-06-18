@@ -55,6 +55,10 @@ export const LINKS: Links = [
     TEXT: "Blog",
     HREF: "/blog",
   },
+  {
+    TEXT: "Laisser un avis",
+    HREF: "/laisser-un-avis",
+  },
 ];
 
 export const SOCIALS: Socials = [
