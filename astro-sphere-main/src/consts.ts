@@ -31,6 +31,10 @@ export const SEARCH: Page = {
   DESCRIPTION: "Trouvez mes articles et projets à l'aide de mots-clés.",
 };
 
+// Formulaire de contact (Formspree)
+// Crée un formulaire sur https://formspree.io et remplace l'identifiant ci-dessous.
+export const FORMSPREE_ENDPOINT = "https://formspree.io/f/xqeorlod";
+
 export const LINKS: Links = [
   {
     TEXT: "Accueil",
