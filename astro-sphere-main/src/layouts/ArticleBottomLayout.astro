@@ -1,6 +1,5 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content"
-import Comments from "@components/Comments"
 
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects">
@@ -56,6 +55,4 @@ const next = items[(index + 1) % items.length]
       </svg>
     </a>
   </div>
-
-  <Comments client:load pageKey={`${collection}:${entry.slug}`} />
 </div>

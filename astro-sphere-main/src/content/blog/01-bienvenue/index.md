@@ -30,4 +30,4 @@ Je compte écrire sur :
 - ce que j'**apprends** (IA locale, web, robotique, bonnes pratiques) ;
 - des **retours d'expérience** honnêtes, y compris sur ce qui ne marche pas du premier coup.
 
-Merci de passer — et à bientôt pour le prochain article. 🚀
+Merci de passer — et à bientôt pour le prochain article.

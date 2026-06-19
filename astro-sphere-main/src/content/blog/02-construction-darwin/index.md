@@ -75,4 +75,4 @@ Le « corps » de Darwin existe déjà : inférence locale, voix, mémoire, visi
 
 C'est un projet de longue haleine, et c'est exactement ce qui me plaît : il mêle tout ce qui me passionne — l'IA, le système, l'architecture logicielle, et un peu de philosophie sur ce qu'on attend vraiment d'une machine qui nous assiste.
 
-À suivre dans un prochain article. 🤖
+À suivre dans un prochain article.

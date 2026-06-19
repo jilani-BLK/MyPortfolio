@@ -13,7 +13,7 @@ tags:
 
 **Central** est un espace personnel unifié où **Cobalt**, un assistant IA basé sur **Claude (Anthropic)**, est l'interface principale. L'utilisateur garde le contrôle via des outils, et l'écosystème s'étend à tout ce qui le concerne — santé, finance, projets, lectures, relations — pas seulement la productivité.
 
-> 🛠️ **Phase MVP — en développement actif.** Code source privé pour l'instant.
+> **Phase MVP — en développement actif.** Code source privé pour l'instant.
 
 ### Aperçu en images
 

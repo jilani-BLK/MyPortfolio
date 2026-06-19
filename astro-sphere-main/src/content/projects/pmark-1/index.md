@@ -12,7 +12,7 @@ tags:
 
 **PMark-1** est un prototype de **bras robotique à 6 axes** miniature, inspiré des systèmes industriels. Le projet couvre l'ensemble de la chaîne, de la conception mécanique au pilotage logiciel, et me sert avant tout à **m'initier à la robotique**.
 
-> 🚧 **Projet en cours de développement.**
+> **Projet en cours de développement.**
 
 ### Aperçu en images
 

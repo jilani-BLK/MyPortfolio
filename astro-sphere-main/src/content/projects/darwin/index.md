@@ -12,7 +12,7 @@ tags:
 
 **Darwin, c'est mon IA personnelle** — un assistant numérique que je conçois et construis moi-même, pensé comme une **présence permanente** sur ma machine. Ni chatbot, ni application web : un **programme qui vit en local**, qui me connaît, se souvient de tout et agit pour moi. (Nom de code du projet : **Hedwige**.)
 
-> 🚧 **Projet en cours de développement** — code source privé pour l'instant.
+> **Projet en cours de développement** — code source privé pour l'instant.
 
 ### Aperçu en images
 
