@@ -90,11 +90,23 @@ import Container from "@components/Container.astro"
     })
   }
 
+  function isScrollable() {
+    return document.documentElement.scrollHeight > window.innerHeight + 4
+  }
+
+  function updateBackToTopVisibility() {
+    const backToTop = document.getElementById("back-to-top")
+    backToTop?.classList.toggle("hidden", !isScrollable())
+  }
+
   function inintializeBackToTop() {
     const backToTop = document.getElementById("back-to-top")
     backToTop?.addEventListener("click", goBackToTop)
+    updateBackToTopVisibility()
   }
 
   document.addEventListener("astro:after-swap", inintializeBackToTop)
+  window.addEventListener("resize", updateBackToTopVisibility)
+  window.addEventListener("load", updateBackToTopVisibility)
   inintializeBackToTop()
 </script>

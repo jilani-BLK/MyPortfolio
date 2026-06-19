@@ -14,12 +14,12 @@ export default function Search({data}: Props) {
   const fuse = new Fuse(data, {
     keys: ["slug", "data.title", "data.summary", "data.tags"],
     includeMatches: true,
-    minMatchCharLength: 2,
+    minMatchCharLength: 1,
     threshold: 0.4,
   })
 
   createEffect(() => {
-    if (query().length < 2) {
+    if (query().length < 1) {
       setResults([])
     } else {
       setResults(fuse.search(query()).map((result) => result.item))
@@ -39,7 +39,7 @@ export default function Search({data}: Props) {
           <use href={`/ui.svg#search`}/>
         </svg>
       </div>
-      {(query().length >= 2 && results().length >= 1) && (
+      {(query().length >= 1 && results().length >= 1) && (
         <div class="mt-12">
           <div class="text-sm uppercase mb-2">
             {results().length} résultat{results().length > 1 ? "s" : ""} pour {`'${query()}'`}
