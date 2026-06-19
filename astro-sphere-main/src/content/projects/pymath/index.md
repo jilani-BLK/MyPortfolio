@@ -1,6 +1,6 @@
 ---
 title: "PyMath"
-summary: "Une calculatrice interactive développée avec Python et PyQt5"
+summary: "Un exercice d'initiation à Python et PyQt5 : une calculatrice de bureau interactive."
 date: "Jan 21 2025"
 draft: false
 tags:
@@ -9,7 +9,7 @@ tags:
 repoUrl: https://github.com/jilani-BLK/PyMath.git
 ---
 
-**PyMath** est une calculatrice de bureau interactive et intuitive, développée avec Python et PyQt5. Ce projet, qui représente ma première réalisation en Python, m'a permis de combiner l'apprentissage de la programmation avec une application pratique et utile. 
+**PyMath** est une calculatrice de bureau développée avec Python et PyQt5 — un **exercice d'initiation à Python**, et ma première réalisation avec ce langage. L'occasion de combiner l'apprentissage de la programmation avec une application concrète.
 
 ### Démo jouable
 

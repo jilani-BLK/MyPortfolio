@@ -1,6 +1,6 @@
 ---
 title: "PMark-1"
-summary: "Prototype de bras robotique à 6 axes inspiré des systèmes industriels, piloté en Python et C. En cours de développement."
+summary: "Mon propre bras robotique 6 axes, que je conçois moi-même, inspiré des systèmes industriels. En cours de développement."
 date: "Nov 12 2025"
 draft: false
 tags:
@@ -10,40 +10,39 @@ tags:
 - IA
 ---
 
-**PMark-1** est un prototype de **bras robotique à 6 axes** miniature, inspiré des systèmes industriels. Le projet couvre l'ensemble de la chaîne, de la conception mécanique au pilotage logiciel, et me sert avant tout à **m'initier à la robotique**.
+**PMark-1, c'est mon propre bras robotique à 6 axes** — ma conception, inspirée des systèmes industriels. L'objectif : maîtriser toute la chaîne, de la mécanique au pilotage logiciel, et construire **ma** version plutôt que d'assembler celle d'un autre.
 
 > **Projet en cours de développement.**
 
-### Aperçu en images
+### D'abord, apprendre les bases
 
-![Kit SO-ARM101 monté](/projects/pmark-1/01-kit.svg)
+Avant de concevoir PMark-1, je me forme aux fondamentaux sur un kit **open-source**, le **Waveshare SO-ARM101**. C'est mon banc d'essai pour comprendre concrètement la cinématique, la motorisation et le contrôle d'un bras articulé — ce n'est pas PMark-1, mais le tremplin vers lui.
 
-*Le bras robotique SO-ARM101 monté.*
-
-![Le bras en mouvement](/projects/pmark-1/02-mouvement.svg)
-
-*Un cycle de prise et dépose (pick & place).*
-
-![Gros plan servos / pièces 3D](/projects/pmark-1/03-servos.svg)
-
-*Détails : servomoteurs bus à fort couple et pièces imprimées en 3D (résine).*
-
-### Matériel
-Pour démarrer, je me suis équipé d'un kit **Waveshare SO-ARM101** — un bras robotique 6 axes **open-source** :
 - Support natif de **Hugging Face LeRobot**, idéal pour explorer l'apprentissage par IA.
 - **Servomoteurs bus à fort couple** et pièces imprimées en 3D (résine photosensible).
 - Fourni avec son **kit CAM (SE)**.
 
-Ce kit me permet de me familiariser concrètement avec la cinématique, la motorisation et le contrôle d'un bras articulé, avant d'aller plus loin dans la personnalisation.
+![Le kit SO-ARM101 monté](/projects/pmark-1/01-kit.svg)
 
-### Conception
+*Mon banc d'apprentissage : le kit open-source SO-ARM101.*
+
+![Le bras en mouvement](/projects/pmark-1/02-mouvement.svg)
+
+*Premiers mouvements : un cycle de prise et dépose (pick & place).*
+
+![Gros plan servos / pièces 3D](/projects/pmark-1/03-servos.svg)
+
+*Détails : servomoteurs bus à fort couple et pièces imprimées en 3D.*
+
+### PMark-1 : ma conception
+
+Une fois les bases acquises, je conçois **mon propre bras** :
+
 - **Cinématique** : étude des degrés de liberté et du mouvement des 6 axes.
 - **Motorisation** : choix et intégration des actionneurs.
 - **Capteurs** : retour d'information pour un contrôle précis.
-
-### Pilotage
-- Contrôle développé en **Python** et **C**.
-- Intégration prévue d'une **IA locale** pour un pilotage intelligent et autonome.
+- **Pilotage** en **Python** et **C**, avec à terme une **IA locale** pour un contrôle intelligent et autonome.
 
 ### Objectif
-Comprendre et reproduire à petite échelle le fonctionnement des bras robotiques industriels, en alliant **software et hardware** dans un même projet.
+
+Comprendre et reproduire à petite échelle le fonctionnement des bras robotiques industriels — puis aller plus loin avec ma propre conception, en alliant **software et hardware** dans un même projet.

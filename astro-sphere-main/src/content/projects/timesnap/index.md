@@ -1,6 +1,6 @@
 ---
 title: "TimeSnap"
-summary: "Une application de chronométrage interactive développée avec JavaScript, HTML et CSS"
+summary: "Un exercice pour m'initier à JavaScript : une application de chronométrage interactive (HTML, CSS, JS)."
 date: "Dec 03 2024"
 draft: false
 tags:
@@ -11,7 +11,7 @@ demoUrl: https://jilani-blk.github.io/TimeSnap/
 repoUrl: https://github.com/jilani-BLK/TimeSnap.git
 ---
 
-**TimeSnap** est une application web interactive développée avec JavaScript, HTML et CSS. Ce projet permet de chronométrer des événements, de définir des notifications et de sauvegarder les temps enregistrés.
+**TimeSnap** est l'un de mes premiers projets — un **exercice pour m'initier à JavaScript** et à la manipulation du DOM. C'est une application web de chronométrage : démarrage, notifications, et sauvegarde des temps enregistrés.
 
 ### Démo jouable
 

@@ -1,6 +1,6 @@
 ---
 title: "Mes premiers pas en robotique avec un bras 6 axes"
-summary: "Je me lance dans la robotique : pourquoi, avec quel matériel (le bras SO-ARM101), et ce que je compte en faire avec PMark-1."
+summary: "Je débute la robotique sur un kit open-source (SO-ARM101) pour apprendre les bases — un tremplin vers PMark-1, mon propre bras robotique."
 date: "Jun 19 2026"
 draft: false
 tags:
@@ -19,9 +19,9 @@ Plutôt que de tout réinventer, j'ai investi dans un kit solide pour apprendre 
 - **Servomoteurs bus à fort couple** + pièces imprimées en **3D (résine)** : on est sur du sérieux, pas un jouet.
 - Et surtout : un **support natif de [Hugging Face LeRobot](https://github.com/huggingface/lerobot)** — le pont parfait entre la robotique et l'**apprentissage par IA**, ce qui colle exactement à ce qui me passionne.
 
-## Ce que je veux apprendre
+## Le but : PMark-1, mon propre bras
 
-Mon objectif avec **PMark-1** (mon projet de bras articulé) n'est pas de « faire bouger un bras », mais de comprendre toute la chaîne, brique par brique :
+Une précision importante : le SO-ARM101 est un **moyen**, pas le but. Le but, c'est **PMark-1** — un bras robotique que je veux **concevoir moi-même**, pas simplement assembler. Pour y arriver, je commence par maîtriser toute la chaîne, brique par brique :
 
 - la **cinématique** : comment penser le mouvement de 6 axes ;
 - la **motorisation** et les **capteurs** : faire dialoguer le logiciel et le moteur ;
@@ -34,6 +34,6 @@ Parce que la meilleure façon d'apprendre, c'est de **mettre les mains dedans to
 
 ## La suite
 
-Je documenterai ici mes étapes : montage, premiers mouvements, galères et apprentissages. L'idée à long terme, c'est de relier ça à ce que je sais faire en logiciel et en IA — pour qu'un jour, ce bras ne se contente pas d'exécuter, mais **raisonne** un peu sur ce qu'il fait.
+Je documenterai ici mes étapes : montage, premiers mouvements, galères et apprentissages. L'idée à long terme, c'est de relier ça à ce que je sais faire en logiciel et en IA — pour qu'un jour, **PMark-1** ne se contente pas d'exécuter, mais **raisonne** un peu sur ce qu'il fait.
 
 À suivre.
