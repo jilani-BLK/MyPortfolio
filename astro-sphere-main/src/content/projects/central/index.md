@@ -17,7 +17,7 @@ tags:
 
 ### Aperçu en images
 
-![Aperçu — chat Cobalt](/projects/central/01-apercu-chat.svg)
+![Aperçu — chat Cobalt](/projects/central/01-apercu-chat.png)
 
 *Vue d'ensemble de l'interface, avec Cobalt comme point d'entrée principal.*
 

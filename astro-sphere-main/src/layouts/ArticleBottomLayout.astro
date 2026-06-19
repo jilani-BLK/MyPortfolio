@@ -23,6 +23,73 @@ const next = items[(index + 1) % items.length]
   <article>
     <Content/>
   </article>
+
+  <!-- Lightbox : agrandit les images d'article au clic -->
+  <div
+    id="lightbox"
+    class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4 cursor-zoom-out"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Image agrandie"
+  >
+    <img id="lightbox-img" src="" alt="" class="max-w-[95vw] max-h-[90vh] object-contain rounded-lg" />
+    <button
+      id="lightbox-close"
+      aria-label="Fermer"
+      class="absolute top-4 right-4 size-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-white text-2xl leading-none blend"
+    >
+      &times;
+    </button>
+  </div>
+
+  <script is:inline>
+    function initLightbox() {
+      const box = document.getElementById("lightbox")
+      const boxImg = document.getElementById("lightbox-img")
+      if (!box || !boxImg) return
+
+      // Sortir la lightbox de tout ancêtre avec `transform` (ex: .animate),
+      // sinon `position: fixed` se cale sur ce conteneur au lieu du viewport.
+      if (box.parentElement !== document.body) document.body.appendChild(box)
+
+      function open(src, alt) {
+        boxImg.src = src
+        boxImg.alt = alt || ""
+        box.classList.remove("hidden")
+        box.classList.add("flex")
+        document.body.style.overflow = "hidden"
+      }
+
+      function close() {
+        box.classList.add("hidden")
+        box.classList.remove("flex")
+        boxImg.src = ""
+        document.body.style.overflow = ""
+      }
+
+      document.querySelectorAll("article img").forEach((img) => {
+        if (img.dataset.lightbox) return
+        img.dataset.lightbox = "true"
+        img.style.cursor = "zoom-in"
+        img.addEventListener("click", () => open(img.currentSrc || img.src, img.alt))
+      })
+
+      if (!box.dataset.bound) {
+        box.dataset.bound = "true"
+        box.addEventListener("click", (e) => {
+          if (e.target === boxImg) return
+          close()
+        })
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && !box.classList.contains("hidden")) close()
+        })
+      }
+    }
+
+    document.addEventListener("astro:after-swap", initLightbox)
+    initLightbox()
+  </script>
+
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <a href={`/${prev.collection}/${prev.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 blend">
       <div class="order-2 w-full h-full group-hover:text-black group-hover:dark:text-white blend">
