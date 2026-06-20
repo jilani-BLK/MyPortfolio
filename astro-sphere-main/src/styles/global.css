@@ -108,6 +108,17 @@ article img {
   border-color: rgb(255 255 255 / 0.15);
 }
 
+/* Images qui suivent le thème : montre la version claire/sombre selon le mode */
+.theme-img-dark {
+  display: none;
+}
+.dark .theme-img-light {
+  display: none;
+}
+.dark .theme-img-dark {
+  display: block;
+}
+
 /**
  * TWINKLE STARS
  */
