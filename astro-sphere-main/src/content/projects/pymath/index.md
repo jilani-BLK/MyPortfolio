@@ -32,8 +32,8 @@ L'application originale est en PyQt5 (bureau) et ne tourne pas dans un navigateu
 - **Historique des calculs** : Affichage dynamique des opérations précédentes avec possibilité de sauvegarde dans un fichier texte.
 - **Interface moderne** : Champs interactifs avec affichage dynamique et gestion des couleurs pour améliorer l'expérience utilisateur.
 
-### Objectif du projet :
-L'objectif principal était de découvrir et d'appliquer les bases de Python, tout en développant une application graphique avec PyQt5. Ce projet m'a permis de comprendre les concepts fondamentaux de la programmation, comme la gestion des événements, les interfaces utilisateur et les algorithmes mathématiques. 
+### Ce que ça démontre
+Des bases solides en **Python** et en conception d'interfaces (PyQt5) — gestion des événements, logique applicative, expérience utilisateur — et surtout ma démarche : **apprendre en livrant** quelque chose de concret et fini, plutôt que de rester sur la théorie.
 
 ### Liens :
 - **Instructions** : [Page du projet](https://jilani-blk.github.io/PyMath/)

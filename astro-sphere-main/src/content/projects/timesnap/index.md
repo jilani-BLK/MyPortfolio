@@ -26,8 +26,8 @@ Essaie l'application directement ici, sans quitter la page :
 - **Mode sombre** : Basculer entre le mode clair et le mode sombre pour une meilleure expérience utilisateur.
 - **Plein écran** : Passer en mode plein écran pour une meilleure visibilité.
 
-### Objectif du projet :
-L'objectif principal était de pratiquer et de démontrer les compétences en développement web, en utilisant JavaScript pour la logique et l'interactivité, HTML pour la structure, et CSS pour le style. Ce projet permet de comprendre les concepts fondamentaux de la manipulation du DOM, de la gestion des événements, des notifications et du stylisme web.
+### Ce que ça démontre
+La maîtrise des **fondamentaux du web** dès mes débuts — manipulation du DOM, gestion des événements, état et persistance, notifications — et le réflexe de livrer des projets **terminés et réellement utilisables**, pas des brouillons.
 
 ### Liens :
 - **Démo** : [Voir la démo](https://jilani-blk.github.io/TimeSnap/)

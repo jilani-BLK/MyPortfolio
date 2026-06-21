@@ -46,3 +46,6 @@ Une fois les bases acquises, je conçois **mon propre bras** :
 ### Objectif
 
 Comprendre et reproduire à petite échelle le fonctionnement des bras robotiques industriels — puis aller plus loin avec ma propre conception, en alliant **software et hardware** dans un même projet.
+
+### Ce que ça démontre
+La capacité à mener un projet **à la fois logiciel et matériel** — de la mécanique et l'électronique jusqu'au pilotage en Python/C et à l'IA embarquée. La preuve que je descends au fond des systèmes au lieu de rester en surface.

@@ -46,3 +46,6 @@ Tout fonctionne **en local**, sans aucun service cloud ni API tierce. Si Interne
 ### Choix techniques
 - **Code pur, sans framework agent** (ni LangChain, ni LlamaIndex…) : **Python** pour l'orchestration, **C/C++** pour la performance.
 - Conçu comme un **démon système** permanent, maîtrisé de bout en bout.
+
+### Ce que ça démontre
+Une maîtrise concrète de l'**IA exécutée en local** — LLM open-source, voix, mémoire continue, raisonnement par primitives — et la capacité à architecturer un système complexe **sans framework**, en Python et C. Précieux pour qui veut intégrer l'IA **sans dépendre du cloud ni exposer ses données**.

@@ -46,5 +46,5 @@ tags:
 - **Intégrations** : Google Maps + Places API, emails transactionnels (Resend), interface bilingue **fr / en**.
 - Nom de domaine réservé pour la mise en production : **mycentralai.com**.
 
-### Ce que ce projet démontre
-La conception **full-stack de bout en bout** d'un produit SaaS réel : architecture front/back, base de données sécurisée, intégration d'une IA avec mémoire, paiements et mise en production.
+### Ce que ça démontre
+La capacité à concevoir et livrer **seul un produit SaaS complet**, de l'idée à la mise en production : architecture front/back, base de données sécurisée, IA dotée d'une mémoire, paiements Stripe. La preuve que je peux porter une fonctionnalité de bout en bout, sans intermédiaire.
