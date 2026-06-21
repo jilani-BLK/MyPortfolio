@@ -17,14 +17,14 @@ tags:
 
 ### Aperçu en images
 
-<img src="/projects/central/01-apercu-chat-light.png?v=2" alt="Aperçu — chat Cobalt" class="theme-img-light" />
-<img src="/projects/central/01-apercu-chat-dark.png?v=2" alt="Aperçu — chat Cobalt" class="theme-img-dark" />
+<img src="/projects/central/01-apercu-chat-light.png?v=3" alt="Aperçu — chat Cobalt" class="theme-img-light" />
+<img src="/projects/central/01-apercu-chat-dark.png?v=3" alt="Aperçu — chat Cobalt" class="theme-img-dark" />
 
 *Vue d'ensemble de l'interface, avec Cobalt comme point d'entrée principal.*
 
 <video autoplay loop muted playsinline preload="metadata" aria-label="Conversation avec Cobalt">
-  <source src="/projects/central/02-conversation.webm?v=2" type="video/webm" />
-  <source src="/projects/central/02-conversation.mp4?v=2" type="video/mp4" />
+  <source src="/projects/central/02-conversation.webm?v=3" type="video/webm" />
+  <source src="/projects/central/02-conversation.mp4?v=3" type="video/mp4" />
 </video>
 
 *Une conversation : Cobalt répond et s'appuie sur sa mémoire de l'utilisateur.*
