@@ -17,8 +17,8 @@ tags:
 
 ### Aperçu en images
 
-<img src="/projects/central/01-apercu-chat-light.png" alt="Aperçu — chat Cobalt" class="theme-img-light" />
-<img src="/projects/central/01-apercu-chat-dark.png" alt="Aperçu — chat Cobalt" class="theme-img-dark" />
+<img src="/projects/central/01-apercu-chat-light.png?v=2" alt="Aperçu — chat Cobalt" class="theme-img-light" />
+<img src="/projects/central/01-apercu-chat-dark.png?v=2" alt="Aperçu — chat Cobalt" class="theme-img-dark" />
 
 *Vue d'ensemble de l'interface, avec Cobalt comme point d'entrée principal.*
 
