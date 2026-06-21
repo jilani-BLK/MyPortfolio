@@ -22,7 +22,10 @@ tags:
 
 *Vue d'ensemble de l'interface, avec Cobalt comme point d'entrée principal.*
 
-![Conversation avec Cobalt](/projects/central/02-conversation.svg)
+<video autoplay loop muted playsinline preload="metadata" aria-label="Conversation avec Cobalt">
+  <source src="/projects/central/02-conversation.webm" type="video/webm" />
+  <source src="/projects/central/02-conversation.mp4" type="video/mp4" />
+</video>
 
 *Une conversation : Cobalt répond et s'appuie sur sa mémoire de l'utilisateur.*
 

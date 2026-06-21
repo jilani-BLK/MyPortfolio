@@ -108,6 +108,19 @@ article img {
   border-color: rgb(255 255 255 / 0.15);
 }
 
+article video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.dark article video {
+  border-color: rgb(255 255 255 / 0.15);
+}
+
 /* Images qui suivent le thème : montre la version claire/sombre selon le mode */
 .theme-img-dark {
   display: none;
