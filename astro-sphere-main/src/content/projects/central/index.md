@@ -29,7 +29,8 @@ tags:
 
 *Une conversation : Cobalt répond et s'appuie sur sa mémoire de l'utilisateur.*
 
-![Un outil / miniview](/projects/central/03-outil.svg)
+<img src="/projects/central/03-outil-light.png" alt="Tableau de bord adaptatif de Central" class="theme-img-light" />
+<img src="/projects/central/03-outil-dark.png" alt="Tableau de bord adaptatif de Central" class="theme-img-dark" />
 
 *Le tableau de bord s'adapte : il met en avant les miniviews réellement utilisées, pour aller à l'essentiel sans surcharge.*
 
