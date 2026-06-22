@@ -19,12 +19,6 @@ L'application originale est en PyQt5 (bureau) et ne tourne pas dans un navigateu
 <iframe src="/demos/pymath/index.html" title="Démo jouable de PyMath" loading="lazy" style="display:block; width:100%; height:560px; border:0; background:transparent;"></iframe>
 </div>
 
-### L'application originale (PyQt5)
-
-![L'application PyQt5](/projects/pymath/01-app.svg)
-
-*Capture de la vraie calculatrice de bureau — arrive bientôt.*
-
 ### Fonctionnalités principales :
 - **Calculs de base** : Addition, soustraction, multiplication et division.
 - **Fonctions avancées** : Pourcentages, racines carrées, calculs de fractions et gestion de la mémoire.

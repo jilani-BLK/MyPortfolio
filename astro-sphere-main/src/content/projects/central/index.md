@@ -34,10 +34,6 @@ tags:
 
 *Le tableau de bord s'adapte : il met en avant les miniviews réellement utilisées, pour aller à l'essentiel sans surcharge.*
 
-![Les 4 abonnements](/projects/central/04-abonnements.svg)
-
-*Les 4 tiers d'abonnement, gérés via Stripe (Checkout, Portal, Webhooks).*
-
 ### Stack technique
 - **Front-End** : React 18, Vite, TypeScript, Tailwind CSS v4.
 - **Back-End** : Express, Node.js, TypeScript.

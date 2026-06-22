@@ -22,18 +22,6 @@ Avant de concevoir PMark-1, je me forme aux fondamentaux sur un kit **open-sourc
 - **Servomoteurs bus à fort couple** et pièces imprimées en 3D (résine photosensible).
 - Fourni avec son **kit CAM (SE)**.
 
-![Le kit SO-ARM101 monté](/projects/pmark-1/01-kit.svg)
-
-*Mon banc d'apprentissage : le kit open-source SO-ARM101.*
-
-![Le bras en mouvement](/projects/pmark-1/02-mouvement.svg)
-
-*Premiers mouvements : un cycle de prise et dépose (pick & place).*
-
-![Gros plan servos / pièces 3D](/projects/pmark-1/03-servos.svg)
-
-*Détails : servomoteurs bus à fort couple et pièces imprimées en 3D.*
-
 ### PMark-1 : ma conception
 
 Une fois les bases acquises, je conçois **mon propre bras** :
